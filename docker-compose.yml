@@ -6,7 +6,7 @@ services:
     ports:
       - "25565:25565"
     environment:
-      EULA: "true"
+      EULA: "TRUE"
       MOD_PLATFORM: AUTO_CURSEFORGE
       # allocate from https://console.curseforge.com/ and set in .env file
       CF_API_KEY: ${CF_API_KEY}
